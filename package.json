@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "A simple plugin boilerplate for localForage.",
   "homepage": "https://github.com/localForage-extensions/localForage-plugin-boilerplate",
-  "main": "src/localforage-plugin-boilerplate.js",
+  "main": "dist/localforage-plugin-boilerplate.js",
   "jsnext:main": "dist/localforage-plugin-boilerplate.es6.js",
   "scripts": {
     "prebuild": "eslint lib test",
