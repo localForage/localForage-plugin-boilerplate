@@ -10,3 +10,8 @@ A simple plugin boilerplate for [localForage](https://github.com/mozilla/localFo
 
 ## Installation
 `npm i localforage-plugin-boilerplate`
+
+## API
+```js
+localforage.pluginMethod();
+```
