@@ -1,5 +1,5 @@
-dist
-build
 bower_components
-node_modules
+build
 components
+dist
+node_modules

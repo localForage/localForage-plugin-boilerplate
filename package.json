@@ -6,7 +6,8 @@
   "main": "dist/localforage-plugin-boilerplate.js",
   "jsnext:main": "dist/localforage-plugin-boilerplate.es6.js",
   "scripts": {
-    "prebuild": "eslint lib test",
+    "lint": "eslint lib test",
+    "prebuild": "npm run lint",
     "build": "rollup -c rollup.config.umd.js && rollup -c rollup.config.es6.js",
     "pretest": "rollup -c rollup.config.test.js",
     "test": "mocha build/test-bundle.js",
@@ -37,6 +38,6 @@
     "source-map-support": "^0.4.0"
   },
   "dependencies": {
-    "localforage": ">=1.4.0"
+    "localforage": ">=1.5.0"
   }
 }
